@@ -3,30 +3,7 @@
 This project is a complete visual workflow editor built using React, Vite, ReactFlow, Zustand, TailwindCSS, and FastAPI.
 It allows users to create pipelines using draggable nodes, connect them visually, and receive pipeline analytics from a backend API.
 
-📂 Project Structure
-/frontend
-  ├── src
-  │   ├── components
-  │   │   ├── BaseNode.jsx
-  │   │   ├── FlowCanvas.jsx
-  │   │   ├── Toolbar.jsx
-  │   │   └── SubmitButton.jsx
-  │   ├── nodes
-  │   │   ├── InputNode.jsx
-  │   │   ├── TextNode.jsx
-  │   │   ├── OutputNode.jsx
-  │   │   ├── MathNode.jsx
-  │   │   ├── MergeNode.jsx
-  │   │   ├── ConditionNode.jsx
-  │   │   ├── JSONNode.jsx
-  │   │   └── DelayNode.jsx
-  │   ├── Store
-  │   │   └── FlowStore.js
-  │   ├── api
-  │   │   └── flowApi.js
-  │   └── submit.js
-/backend
-  └── main.py
+
 🧩 Features
 1️⃣ Node Abstraction (BaseNode)
 
